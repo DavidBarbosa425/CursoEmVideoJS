@@ -16,14 +16,14 @@
     </div>
 
     <script>
-        var nac = window.document.querySelector('input#nacionalidade')
-        var res = window.document.querySelector('div#res')
-        function clicar(){
-            
-
-                if (nac == 'Brasi'){
-                    res.innerHTML = `Você é Brasileiro`
+            function clicar(){
+            var nac = window.document.querySelector('input#nacionalidade')
+            var res = window.document.querySelector('div#res')
+                if (nac == "Brasil")
+                {
+                    res.innerHTML = 'Você é Brasileiro'
                 }
+                res.innerHTML = 'Você é estrangeiro'
                 
                 
         }
