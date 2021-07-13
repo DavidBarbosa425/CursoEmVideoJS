@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de Nacionalidade</title>
+</head>
+<body>
+    <h1>Verificação de Nacionalidade</h1>
+    Em qual país você vive? <input type="text" id="nacionalidade">
+    <input type="button" value="Clicar" onclick="clicar()">
+
+    <div id="res">
+
+    </div>
+
+    <script>
+        var nac = window.document.querySelector('input#nacionalidade')
+        var res = window.document.querySelector('div#res')
+        function clicar(){
+            
+
+                if (nac == 'Brasi'){
+                    res.innerHTML = `Você é Brasileiro`
+                }
+                
+                
+        }
+    </script>
+    
+</body>
+</html>
